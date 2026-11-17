@@ -3,7 +3,7 @@ linux commands are used to interact with the operationg systemthrough the comman
 
 1. pwd - Displays the current working directory
 
-2. ls - Lists files and directories.
+2. ls - Lists files and directories. 
 
 3. ls -l -Displays files with detailed information.
 
