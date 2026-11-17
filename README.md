@@ -1,5 +1,6 @@
 # TrainingRepo
 linux commands are used to interact with the operationg systemthrough the command-line terminal.
+
 pwd - Displays the current working directory
 ls - Lists files and directories.
 ls -l -Displays files with detailed information.
