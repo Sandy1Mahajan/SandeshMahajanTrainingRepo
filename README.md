@@ -1,1 +1,1 @@
-# TraningRepo
+# TrainingRepo
