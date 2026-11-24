@@ -302,3 +302,40 @@ print(result)
 **Output**
 Even
 
+## Loops in Python
+Loops are used to execute a block of code repeatedly until a particular condition is satisfied or a sequence is completed.
+
+### 1. For Loop
+A for loop is used to iterate over a sequence such as a list, tuple, string, dictionary, or range of numbers.
+
+**Example**
+```python
+#print numbers from  1 to 5
+for i in range(1, 6):
+    print(i)
+```
+
+**Output**
+1
+2
+3
+4
+5
+
+### 2. While Loop
+A while loop repeatedly executes a block of code as long as its condition remains true.
+
+**Example**
+```python
+i=1
+while i<+5
+    print(i)
+i+=1
+```
+
+**Output**
+1
+2
+3
+4
+5
