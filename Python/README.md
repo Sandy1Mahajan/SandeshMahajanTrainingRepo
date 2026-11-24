@@ -13,7 +13,7 @@ Python is a high-level, interpreted, general-purpose programming language known 
 A variable is a named memory reference used to store data that can be accessed and manipulated in a programm.
 Syntax:
 varible_name = value
-,,,python
+```python
 Name = "Sandesh"
 Age = 22
 City = "Pune"
@@ -25,4 +25,4 @@ print(Age)
 print(City)
 print(Salary)
 print(is_Developer)
-,,,
+```
