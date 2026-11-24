@@ -328,7 +328,7 @@ A while loop repeatedly executes a block of code as long as its condition remain
 **Example**
 ```python
 i=1
-while i<+5
+while i<=5
     print(i)
 i+=1
 ```
