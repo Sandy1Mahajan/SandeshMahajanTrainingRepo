@@ -113,6 +113,7 @@ print(message)
 Boolean represents only two values:
 - True
 - False
+Python uses capital T and F in Boolean values.
 
 **Example**
 ```python
@@ -124,3 +125,25 @@ print(is_student)
 
 print(type(is_developer))
 ```
+## Operators in Python
+Operators are symbols or keywords used to perform operations on variables and values.
+
+Python has seven major categories of operators.
+1. Arithmetic operators
+2. Comparison operators
+3. Logical operators
+4. Assignment operators
+5. Identity operators
+6. Membership operators
+7. Bitwise operators
+
+### 1. Arithmetic Operators
+Arithmetic operators perform mathematical calculations.
+Operator  	Name	             Example	   Result
++	          Addition	         10 + 5	     15
+-	          Subtraction	       10 - 5	     5
+*	          Multiplication	   10 * 5	     50
+/	          Division	         10 / 5	     2.0
+//	        Floor division	   10 // 3     3
+%	          Modulus	           10 % 3	     1
+**	        Exponentiation	   2 ** 3	     8
