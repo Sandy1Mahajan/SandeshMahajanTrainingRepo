@@ -181,3 +181,95 @@ Logical operators combine conditional statements.
 | `and` | Returns `True` if both statements are true | `x > 2 and x < 10` | `True` |
 | `or` | Returns `True` if one of the statements is true | `x > 2 or x > 10` | `True` |
 | `not` | Reverses the result, returns `False` if the result is true | `not(x > 2 and x ` | Signed right shift | Shifts right by pushing copies of the leftmost bit in | `5 >> 1` (`0010`) | `2` |
+
+## Conditional Statements
+Conditional statements are used to make decisions in a Python program based on whether a condition is True or False.
+
+Python provides the following conditional statements:
+1. if
+2. if-else
+3. if-elif-else
+4. Nested if
+5. Short-hand if
+6. Ternary operator
+
+### 1. The if Statement
+The if statement executes a block of code only when a specified condition is true.
+
+**Example**
+```python
+age = 22
+
+if age >= 18:
+    print("Eligible to vote")
+```
+**Output:**
+Eligible to vote
+
+### 2. The if-else Statement
+The if-else statement executes one block when the condition is true and another block when it is false.
+
+**Example**
+```python
+number = int(input("Enter a number: "))
+
+if number % 2 == 0:
+    print("Even number")
+else:
+    print("Odd number")
+```
+
+**Output:**
+Enter a number: 15
+Odd number
+
+### 3. The if-elif-else Statement
+When you have multiple conditions to check, use if-elif-else.
+
+elif means "else if".
+
+Python checks the conditions from top to bottom. The first true condition gets executed, and the remaining conditions are skipped.
+
+**Example**
+```python
+marks = int(input("Enter your marks: "))
+
+if marks >= 90:
+    print("Grade A")
+elif marks >= 75:
+    print("Grade B")
+elif marks >= 60:
+    print("Grade C")
+elif marks >= 40:
+    print("Grade D")
+else:
+    print("Fail")
+```
+
+**Output**
+Enter your marks: 82
+Grade B
+
+### 4. Nested if Statements
+A nested if statement means writing an if statement inside another if statement.
+
+It is useful when one condition needs to be checked only after another condition is satisfied.
+
+**Example**
+```python
+username = input("Enter username: ")
+password = input("Enter password: ")
+
+if username == "sandesh":
+    if password == "python123":
+        print("Login successful")
+    else:
+        print("Incorrect password")
+else:
+    print("Invalid username")
+```
+
+**Output:**
+Enter username: sandesh
+Enter password: python123
+Login successful
