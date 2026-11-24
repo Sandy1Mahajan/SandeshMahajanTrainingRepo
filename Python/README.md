@@ -126,9 +126,11 @@ print(is_student)
 print(type(is_developer))
 ```
 ## Operators in Python
+
 Operators are symbols or keywords used to perform operations on variables and values.
 
-Python has seven major categories of operators.
+Python has seven major categories of operators:
+
 1. Arithmetic operators
 2. Comparison operators
 3. Logical operators
@@ -137,8 +139,12 @@ Python has seven major categories of operators.
 6. Membership operators
 7. Bitwise operators
 
+---
+
 ### 1. Arithmetic Operators
+
 Arithmetic operators perform mathematical calculations.
+
 | Operator | Name | Example | Result |
 | :--- | :--- | :--- | :--- |
 | `+` | Addition | `10 + 5` | `15` |
@@ -148,3 +154,30 @@ Arithmetic operators perform mathematical calculations.
 | `//` | Floor division | `10 // 3` | `3` |
 | `%` | Modulus | `10 % 3` | `1` |
 | `**` | Exponentiation | `2 ** 3` | `8` |
+
+---
+
+### 2. Comparison Operators
+
+Comparison operators compare two values and return `True` or `False`.
+
+| Operator | Name | Example | Result |
+| :--- | :--- | :--- | :--- |
+| `==` | Equal to | `10 == 5` | `False` |
+| `!=` | Not equal to | `10 != 5` | `True` |
+| `>` | Greater than | `10 > 5` | `True` |
+| `<` | Less than | `10 < 5` | `False` |
+| `>=` | Greater than or equal to | `10 >= 10` | `True` |
+| `<=` | Less than or equal to | `10 <= 5` | `False` |
+
+---
+
+### 3. Logical Operators
+
+Logical operators combine conditional statements.
+
+| Operator | Description | Example (`x = 5`) | Result |
+| :--- | :--- | :--- | :--- |
+| `and` | Returns `True` if both statements are true | `x > 2 and x < 10` | `True` |
+| `or` | Returns `True` if one of the statements is true | `x > 2 or x > 10` | `True` |
+| `not` | Reverses the result, returns `False` if the result is true | `not(x > 2 and x ` | Signed right shift | Shifts right by pushing copies of the leftmost bit in | `5 >> 1` (`0010`) | `2` |
