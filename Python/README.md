@@ -1,5 +1,6 @@
 <CodeBlock language="markdown" editable>
 # Python 
+  
 Python is a high-level, interpreted, general-purpose programming language known for its simple syntax, readability, and extensive libraries.
 
 ## Python is used for:
@@ -12,10 +13,11 @@ Python is a high-level, interpreted, general-purpose programming language known 
 
 ## Python Variables
 A variable is a named memory reference used to store data that can be accessed and manipulated in a programm.
+
 **Syntax:**
 varible_name = value
 
-***Example**
+**Example**
 ```python
 Name = "Sandesh"
 Age = 22
