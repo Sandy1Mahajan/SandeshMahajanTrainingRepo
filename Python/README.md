@@ -95,4 +95,32 @@ print(x)
 print(x.real)
 print(x.imag)
 ```
+### B. String (str)
+A string is a sequence of characters enclosed in single, double, or triple quotes.
 
+**Example**
+```python
+name = "Sandesh"
+city = 'Pune'
+message = """Welcome to Python"""
+
+print(name)
+print(city)
+print(message)
+```
+
+### C. Boolean (bool)
+Boolean represents only two values:
+- True
+- False
+
+**Example**
+```python
+is_developer = True
+is_student = False
+
+print(is_developer)
+print(is_student)
+
+print(type(is_developer))
+```
