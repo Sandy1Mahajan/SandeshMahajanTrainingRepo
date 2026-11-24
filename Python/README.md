@@ -50,3 +50,46 @@ Pune
 True
 ```
 
+## Python Data Types
+A data type defines the type of value that a variable can hold.
+Python is dynamically typed, meaning you do not need to explicitly declare a variable's type.
+
+### A. Numeric Data Types
+Python has three main numeric types.
+
+1. Integer (int)
+
+Stores whole numbers without decimal points.
+**Example**
+```python
+age = 22
+marks = 85
+
+print(age)
+print(marks)
+print(type(age))
+```
+
+2. Float (float)
+Stores decimal numbers.
+**Example**
+```python
+salary = 25000.50
+percentage = 85.75
+
+print(salary)
+print(percentage)
+print(type(salary))
+```
+3. Complex (complex)
+
+Stores numbers containing real and imaginary parts.
+**Example**
+```python
+x = 2 + 3j
+
+print(x)
+print(x.real)
+print(x.imag)
+```
+
