@@ -273,3 +273,32 @@ else:
 Enter username: sandesh
 Enter password: python123
 Login successful
+
+### 5. Short-hand if Statement
+Python allows you to write a simple if statement in one line.
+
+**Example**
+```python
+age = 22
+
+if age >= 18: print("Adult")
+```
+
+**Output:**
+Adult
+
+### 6. Ternary Operator (Conditional Expression)
+A ternary operator allows you to write an if-else condition in a single line.
+
+**Example**
+```python
+number = 10
+
+result = "Even" if number % 2 == 0 else "Odd"
+
+print(result)
+```
+
+**Output**
+Even
+
