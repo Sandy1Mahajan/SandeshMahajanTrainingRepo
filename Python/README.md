@@ -229,6 +229,14 @@ print(marks)
 print(type(age))
 ```
 
+**Output**
+```text
+22
+85
+<class 'int'>
+```
+
+
 #### Float (float)
 
 Stores decimal numbers.
@@ -242,6 +250,13 @@ percentage = 85.75
 print(salary)
 print(percentage)
 print(type(salary))
+```
+
+**Output**
+```text
+25000.5
+85.75
+<class 'float'>
 ```
 
 #### Complex (complex)
@@ -258,6 +273,14 @@ print(x.real)
 print(x.imag)
 ```
 
+
+**Output**
+```text
+(2+3j)
+2.0
+3.0
+```
+
 ### String (str)
 
 A string is a sequence of characters enclosed in single, double, or triple quotes.
@@ -272,6 +295,13 @@ message = """Welcome to Python"""
 print(name)
 print(city)
 print(message)
+```
+
+**Output**
+```text
+Sandesh
+Pune
+Welcome to Python
 ```
 
 ### Boolean (bool)
@@ -294,6 +324,14 @@ print(is_student)
 
 print(type(is_developer))
 ```
+
+**Output**
+```text
+True
+False
+<class 'bool'>
+```
+
 
 ## Conditional Statements
 
