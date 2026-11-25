@@ -2,10 +2,10 @@
 
 Python is a high-level, interpreted, general-purpose programming language known for its simple syntax, readability, and extensive libraries.
 
-## 📚 Python Topics
+## Python Topics
 
 <details>
-<summary><b>🐍 Python</b></summary>
+<summary><b>Python</b></summary>
 
 <details>
 <summary><b>1. Python Introduction</b></summary>
