@@ -8,38 +8,38 @@ Python is a high-level, interpreted, general-purpose programming language known 
 <summary><b>Python</b></summary>
 
 <details>
-<summary><b>1. Python Fundamentals</b></summary>
+<summary><b>Python Fundamentals</b></summary>
 
-- [1.1 Introduction](#11-introduction)
-- [1.2 Input and Output](#12-input-and-output)
-- [1.3 Variables](#13-variables)
-- [1.4 Operators](#14-operators)
-- [1.5 Keywords](#15-keywords)
-- [1.6 Data Types](#16-data-types)
-- [1.7 Conditional Statements](#17-conditional-statements)
-- [1.8 Loops](#18-loops)
-- [1.9 Functions](#19-functions)
-
-</details>
-
-<details>
-<summary><b>2. Python Data Structures</b></summary>
-
-- [2.1 String](#21-string)
-- [2.2 List](#22-list)
-- [2.3 Set](#23-set)
-- [2.4 Tuple](#24-tuple)
-- [2.5 Dictionary](#25-dictionary)
-- [2.6 Array](#26-array)
+- [Introduction](#introduction)
+- [Input and Output](#input-and-output)
+- [Variables](#variables)
+- [Operators](#operators)
+- [Keywords](#keywords)
+- [Data Types](#data-types)
+- [Conditional Statements](#conditional-statements)
+- [Loops](#loops)
+- [Functions](#functions)
 
 </details>
 
 <details>
-<summary><b>3. Advanced Python</b></summary>
+<summary><b>Python Data Structures</b></summary>
 
-- [3.1 OOPs](#31-oops)
-- [3.2 Exception Handling](#32-exception-handling)
-- [3.3 File Handling](#33-file-handling)
+- [String](#string)
+- [List](#list)
+- [Set](#set)
+- [Tuple](#tuple)
+- [Dictionary](#dictionary)
+- [Array](#array)
+
+</details>
+
+<details>
+<summary><b>Advanced Python</b></summary>
+
+- [OOPs](#oops)
+- [Exception Handling](#exception-handling)
+- [File Handling](#file-handling)
 
 </details>
 
@@ -47,9 +47,11 @@ Python is a high-level, interpreted, general-purpose programming language known 
 
 ---
 
-# 1. Python Fundamentals
+# Python Fundamentals
 
-## 1.1 Introduction
+## Introduction
+
+Python is a high-level, interpreted, general-purpose programming language known for its simple syntax, readability, and extensive libraries.
 
 ### Python is used for:
 
@@ -60,9 +62,9 @@ Python is a high-level, interpreted, general-purpose programming language known 
 - Automation – Shell scripts, file processing.
 - Backend development – APIs and server-side applications.
 
-## 1.2 Input and Output
+## Input and Output
 
-## 1.3 Variables
+## Variables
 
 A variable is a named reference used to store data that can be accessed and manipulated in a program.
 
@@ -98,7 +100,7 @@ Pune
 True
 ```
 
-## 1.4 Operators
+## Operators
 
 Operators are symbols or keywords used to perform operations on variables and values.
 
@@ -114,7 +116,7 @@ Python has seven major categories of operators:
 
 ---
 
-### 1. Arithmetic Operators
+### Arithmetic Operators
 
 Arithmetic operators perform mathematical calculations.
 
@@ -130,7 +132,7 @@ Arithmetic operators perform mathematical calculations.
 
 ---
 
-### 2. Comparison Operators
+### Comparison Operators
 
 Comparison operators compare two values and return `True` or `False`.
 
@@ -145,7 +147,7 @@ Comparison operators compare two values and return `True` or `False`.
 
 ---
 
-### 3. Logical Operators
+### Logical Operators
 
 Logical operators combine conditional statements.
 
@@ -155,27 +157,27 @@ Logical operators combine conditional statements.
 | `or` | Returns `True` if one of the statements is true | `x > 2 or x > 10` | `True` |
 | `not` | Reverses the result, returns `False` if the result is true | `not(x > 2 and x ` | |
 
-### 4. Assignment Operators
+### Assignment Operators
 
-### 5. Identity Operators
+### Identity Operators
 
-### 6. Membership Operators
+### Membership Operators
 
-### 7. Bitwise Operators
+### Bitwise Operators
 
-## 1.5 Keywords
+## Keywords
 
-## 1.6 Data Types
+## Data Types
 
 A data type defines the type of value that a variable can hold.
 
 Python is dynamically typed, meaning you do not need to explicitly declare a variable's type.
 
-### A. Numeric Data Types
+### Numeric Data Types
 
 Python has three main numeric types.
 
-#### 1. Integer (int)
+#### Integer (int)
 
 Stores whole numbers without decimal points.
 
@@ -190,7 +192,7 @@ print(marks)
 print(type(age))
 ```
 
-#### 2. Float (float)
+#### Float (float)
 
 Stores decimal numbers.
 
@@ -205,7 +207,7 @@ print(percentage)
 print(type(salary))
 ```
 
-#### 3. Complex (complex)
+#### Complex (complex)
 
 Stores numbers containing real and imaginary parts.
 
@@ -219,7 +221,7 @@ print(x.real)
 print(x.imag)
 ```
 
-### B. String (str)
+### String (str)
 
 A string is a sequence of characters enclosed in single, double, or triple quotes.
 
@@ -235,7 +237,7 @@ print(city)
 print(message)
 ```
 
-### C. Boolean (bool)
+### Boolean (bool)
 
 Boolean represents only two values:
 
@@ -256,7 +258,7 @@ print(is_student)
 print(type(is_developer))
 ```
 
-## 1.7 Conditional Statements
+## Conditional Statements
 
 Conditional statements are used to make decisions in a Python program based on whether a condition is True or False.
 
@@ -269,7 +271,7 @@ Python provides the following conditional statements:
 5. Short-hand if
 6. Ternary operator
 
-### 1. The if Statement
+### The if Statement
 
 The if statement executes a block of code only when a specified condition is true.
 
@@ -288,7 +290,7 @@ if age >= 18:
 Eligible to vote
 ```
 
-### 2. The if-else Statement
+### The if-else Statement
 
 The if-else statement executes one block when the condition is true and another block when it is false.
 
@@ -310,7 +312,7 @@ Enter a number: 15
 Odd number
 ```
 
-### 3. The if-elif-else Statement
+### The if-elif-else Statement
 
 When you have multiple conditions to check, use if-elif-else.
 
@@ -342,7 +344,7 @@ Enter your marks: 82
 Grade B
 ```
 
-### 4. Nested if Statements
+### Nested if Statements
 
 A nested if statement means writing an if statement inside another if statement.
 
@@ -371,7 +373,7 @@ Enter password: python123
 Login successful
 ```
 
-### 5. Short-hand if Statement
+### Short-hand if Statement
 
 Python allows you to write a simple if statement in one line.
 
@@ -389,7 +391,7 @@ if age >= 18: print("Adult")
 Adult
 ```
 
-### 6. Ternary Operator (Conditional Expression)
+### Ternary Operator (Conditional Expression)
 
 A ternary operator allows you to write an if-else condition in a single line.
 
@@ -409,11 +411,11 @@ print(result)
 Even
 ```
 
-## 1.8 Loops
+## Loops
 
 Loops are used to execute a block of code repeatedly until a particular condition is satisfied or a sequence is completed.
 
-### 1. For Loop
+### For Loop
 
 A for loop is used to iterate over a sequence such as a list, tuple, string, dictionary, or range of numbers.
 
@@ -435,7 +437,7 @@ for i in range(1, 6):
 5
 ```
 
-### 2. While Loop
+### While Loop
 
 A while loop repeatedly executes a block of code as long as its condition remains true.
 
@@ -458,30 +460,30 @@ i+=1
 5
 ```
 
-## 1.9 Functions
+## Functions
 
 ---
 
-# 2. Python Data Structures
+# Python Data Structures
 
-## 2.1 String
+## String
 
-## 2.2 List
+## List
 
-## 2.3 Set
+## Set
 
-## 2.4 Tuple
+## Tuple
 
-## 2.5 Dictionary
+## Dictionary
 
-## 2.6 Array
+## Array
 
 ---
 
-# 3. Advanced Python
+# Advanced Python
 
-## 3.1 OOPs
+## OOPs
 
-## 3.2 Exception Handling
+## Exception Handling
 
-## 3.3 File Handling
+## File Handling
