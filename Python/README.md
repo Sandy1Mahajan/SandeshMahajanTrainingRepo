@@ -53,15 +53,6 @@ Python is a high-level, interpreted, general-purpose programming language known 
 
 Python is a high-level, interpreted, general-purpose programming language known for its simple syntax, readability, and extensive libraries.
 
-### Python is used for:
-
-- Web development – Django, Flask, FastAPI.
-- Data analytics – Pandas, NumPy.
-- Artificial Intelligence – TensorFlow, PyTorch.
-- Machine Learning – Scikit-learn.
-- Automation – Shell scripts, file processing.
-- Backend development – APIs and server-side applications.
-
 ## Input and Output
 
 input() function is used to take the user input
