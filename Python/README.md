@@ -7,40 +7,39 @@ Python is a high-level, interpreted, general-purpose programming language known 
 <details>
 <summary><b>Python</b></summary>
 
-
 <details>
 <summary><b>1. Python Fundamentals</b></summary>
 
-- [Introduction](#introduction)
-- [Input and Output](#input-and-output)
-- [Variables](#python-variables)
-- [Operators](#operators-in-python)
-- [Keywords](#keywords)
-- [Data Types](#python-data-types)
-- [Conditional Statements](#conditional-statements)
-- [Loops](#loops-in-python)
-- [Functions](#functions)
+- [1.1 Introduction](#11-introduction)
+- [1.2 Input and Output](#12-input-and-output)
+- [1.3 Variables](#13-variables)
+- [1.4 Operators](#14-operators)
+- [1.5 Keywords](#15-keywords)
+- [1.6 Data Types](#16-data-types)
+- [1.7 Conditional Statements](#17-conditional-statements)
+- [1.8 Loops](#18-loops)
+- [1.9 Functions](#19-functions)
 
 </details>
 
 <details>
 <summary><b>2. Python Data Structures</b></summary>
 
-- [String](#string)
-- [List](#list)
-- [Set](#set)
-- [Tuple](#tuple)
-- [Dictionary](#dictionary)
-- [Array](#array)
+- [2.1 String](#21-string)
+- [2.2 List](#22-list)
+- [2.3 Set](#23-set)
+- [2.4 Tuple](#24-tuple)
+- [2.5 Dictionary](#25-dictionary)
+- [2.6 Array](#26-array)
 
 </details>
 
 <details>
 <summary><b>3. Advanced Python</b></summary>
 
-- [OOPs](#oops)
-- [Exception Handling](#exception-handling)
-- [File Handling](#file-handling)
+- [3.1 OOPs](#31-oops)
+- [3.2 Exception Handling](#32-exception-handling)
+- [3.3 File Handling](#33-file-handling)
 
 </details>
 
@@ -50,12 +49,7 @@ Python is a high-level, interpreted, general-purpose programming language known 
 
 # 1. Python Fundamentals
 
-<details>
-<summary><b>1.1 Introduction</b></summary>
-
-## Introduction
-
-Python is a high-level, interpreted, general-purpose programming language known for its simple syntax, readability, and extensive libraries.
+## 1.1 Introduction
 
 ### Python is used for:
 
@@ -66,19 +60,9 @@ Python is a high-level, interpreted, general-purpose programming language known 
 - Automation – Shell scripts, file processing.
 - Backend development – APIs and server-side applications.
 
-</details>
+## 1.2 Input and Output
 
-<details>
-<summary><b>1.2 Input and Output</b></summary>
-
-## Input and Output
-
-</details>
-
-<details>
-<summary><b>1.3 Variables</b></summary>
-
-## Python Variables
+## 1.3 Variables
 
 A variable is a named reference used to store data that can be accessed and manipulated in a program.
 
@@ -114,12 +98,7 @@ Pune
 True
 ```
 
-</details>
-
-<details>
-<summary><b>1.4 Operators</b></summary>
-
-## Operators in Python
+## 1.4 Operators
 
 Operators are symbols or keywords used to perform operations on variables and values.
 
@@ -184,19 +163,9 @@ Logical operators combine conditional statements.
 
 ### 7. Bitwise Operators
 
-</details>
+## 1.5 Keywords
 
-<details>
-<summary><b>1.5 Keywords</b></summary>
-
-## Keywords
-
-</details>
-
-<details>
-<summary><b>1.6 Data Types</b></summary>
-
-## Python Data Types
+## 1.6 Data Types
 
 A data type defines the type of value that a variable can hold.
 
@@ -287,12 +256,7 @@ print(is_student)
 print(type(is_developer))
 ```
 
-</details>
-
-<details>
-<summary><b>1.7 Conditional Statements</b></summary>
-
-## Conditional Statements
+## 1.7 Conditional Statements
 
 Conditional statements are used to make decisions in a Python program based on whether a condition is True or False.
 
@@ -445,12 +409,7 @@ print(result)
 Even
 ```
 
-</details>
-
-<details>
-<summary><b>1.8 Loops</b></summary>
-
-## Loops in Python
+## 1.8 Loops
 
 Loops are used to execute a block of code repeatedly until a particular condition is satisfied or a sequence is completed.
 
@@ -499,82 +458,30 @@ i+=1
 5
 ```
 
-</details>
-
-<details>
-<summary><b>1.9 Functions</b></summary>
-
-## Functions
-
-</details>
+## 1.9 Functions
 
 ---
 
 # 2. Python Data Structures
 
-<details>
-<summary><b>2.1 String</b></summary>
+## 2.1 String
 
-## String
+## 2.2 List
 
-</details>
+## 2.3 Set
 
-<details>
-<summary><b>2.2 List</b></summary>
+## 2.4 Tuple
 
-## List
+## 2.5 Dictionary
 
-</details>
-
-<details>
-<summary><b>2.3 Set</b></summary>
-
-## Set
-
-</details>
-
-<details>
-<summary><b>2.4 Tuple</b></summary>
-
-## Tuple
-
-</details>
-
-<details>
-<summary><b>2.5 Dictionary</b></summary>
-
-## Dictionary
-
-</details>
-
-<details>
-<summary><b>2.6 Array</b></summary>
-
-## Array
-
-</details>
+## 2.6 Array
 
 ---
 
 # 3. Advanced Python
 
-<details>
-<summary><b>3.1 OOPs</b></summary>
+## 3.1 OOPs
 
-## OOPs
+## 3.2 Exception Handling
 
-</details>
-
-<details>
-<summary><b>3.2 Exception Handling</b></summary>
-
-## Exception Handling
-
-</details>
-
-<details>
-<summary><b>3.3 File Handling</b></summary>
-
-## File Handling
-
-</details>
+## 3.3 File Handling
