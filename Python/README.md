@@ -2,7 +2,114 @@
 
 Python is a high-level, interpreted, general-purpose programming language known for its simple syntax, readability, and extensive libraries.
 
-## Python is used for:
+## 📚 Python Topics
+
+<details>
+<summary><b>🐍 Python</b></summary>
+
+<details>
+<summary><b>1. Python Introduction</b></summary>
+
+- [What is Python?](#what-is-python)
+- [Applications of Python](#applications-of-python)
+
+</details>
+
+<details>
+<summary><b>2. Variables</b></summary>
+
+- [What are Variables?](#what-are-variables)
+- [Variable Syntax](#variable-syntax)
+- [Variable Examples](#variable-examples)
+
+</details>
+
+<details>
+<summary><b>3. Data Types</b></summary>
+
+- [What are Data Types?](#what-are-data-types)
+- [Numeric Data Types](#numeric-data-types)
+  - [Integer (int)](#integer-int)
+  - [Float](#float)
+  - [Complex](#complex)
+- [String (str)](#string-str)
+- [Boolean (bool)](#boolean-bool)
+
+</details>
+
+<details>
+<summary><b>4. Type Conversion</b></summary>
+
+- [What is Type Conversion?](#what-is-type-conversion)
+- [Implicit Type Conversion](#implicit-type-conversion)
+- [Explicit Type Conversion](#explicit-type-conversion)
+
+</details>
+
+<details>
+<summary><b>5. Input in Python</b></summary>
+
+- [input() Function](#input-function)
+- [Taking Integer Input](#taking-integer-input)
+- [Taking Float Input](#taking-float-input)
+- [Taking Multiple Inputs](#taking-multiple-inputs)
+- [Student Information System](#student-information-system)
+
+</details>
+
+<details>
+<summary><b>6. Operators in Python</b></summary>
+
+- [Arithmetic Operators](#arithmetic-operators)
+- [Comparison Operators](#comparison-operators)
+- [Logical Operators](#logical-operators)
+- [Assignment Operators](#assignment-operators)
+- [Identity Operators](#identity-operators)
+- [Membership Operators](#membership-operators)
+- [Bitwise Operators](#bitwise-operators)
+- [Operator Precedence](#operator-precedence)
+- [Employee Salary Calculator](#employee-salary-calculator)
+- [Interview Questions](#operator-interview-questions)
+- [Practice Exercises](#operator-practice-exercises)
+
+</details>
+
+<details>
+<summary><b>7. Conditional Statements</b></summary>
+
+- [What are Conditional Statements?](#what-are-conditional-statements)
+- [if Statement](#if-statement)
+- [if-else Statement](#if-else-statement)
+- [if-elif-else Statement](#if-elif-else-statement)
+- [Nested if](#nested-if)
+- [Short-hand if](#short-hand-if)
+- [Ternary Operator](#ternary-operator)
+
+</details>
+
+<details>
+<summary><b>8. Loops in Python</b></summary>
+
+- [What are Loops?](#what-are-loops)
+- [for Loop](#for-loop)
+- [while Loop](#while-loop)
+- [break Statement](#break-statement)
+- [continue Statement](#continue-statement)
+- [pass Statement](#pass-statement)
+
+</details>
+
+</details>
+
+---
+
+# Python Notes
+
+## What is Python?
+
+Python is a high-level, interpreted, general-purpose programming language known for its simple syntax, readability, and extensive libraries.
+
+## Applications of Python
 
 - Web development – Django, Flask, FastAPI.
 - Data analytics – Pandas, NumPy.
@@ -13,17 +120,17 @@ Python is a high-level, interpreted, general-purpose programming language known 
 
 ---
 
-## Python Variables
+## What are Variables?
 
 A variable is a named reference used to store data that can be accessed and manipulated in a program.
 
-**Syntax:**
+## Variable Syntax
 
 ```python
 variable_name = value
 ```
 
-**Example:**
+## Variable Examples
 
 ```python
 name = "Sandesh"
@@ -49,18 +156,18 @@ Pune
 True
 ```
 
-## Python Data Types
-A data type defines the type of value that a variable can hold.
-Python is dynamically typed, meaning you do not need to explicitly declare a variable's type.
+---
 
-### A. Numeric Data Types
-Python has three main numeric types.
+## What are Data Types?
 
-#### 1. Integer (int)
+A data type defines the type of value a variable can hold. Python is dynamically typed, so we do not need to declare a variable's data type explicitly.
 
-Stores whole numbers without decimal points.
+## Numeric Data Types
 
-**Example**
+### Integer (int)
+
+Integer stores whole numbers without decimal points.
+
 ```python
 age = 22
 marks = 85
@@ -70,10 +177,10 @@ print(marks)
 print(type(age))
 ```
 
-#### 2. Float (float)
-Stores decimal numbers.
+### Float
 
-**Example**
+Float stores numbers containing decimal points.
+
 ```python
 salary = 25000.50
 percentage = 85.75
@@ -82,11 +189,11 @@ print(salary)
 print(percentage)
 print(type(salary))
 ```
-#### 3. Complex (complex)
 
-Stores numbers containing real and imaginary parts.
+### Complex
 
-**Example**
+Complex numbers contain a real part and an imaginary part.
+
 ```python
 x = 2 + 3j
 
@@ -94,10 +201,11 @@ print(x)
 print(x.real)
 print(x.imag)
 ```
-### B. String (str)
-A string is a sequence of characters enclosed in single, double, or triple quotes.
 
-**Example**
+## String (str)
+
+A string is a sequence of characters enclosed in single, double, or triple quotation marks.
+
 ```python
 name = "Sandesh"
 city = 'Pune'
@@ -108,13 +216,10 @@ print(city)
 print(message)
 ```
 
-### C. Boolean (bool)
-Boolean represents only two values:
-- True
-- False
-Python uses capital T and F in Boolean values.
+## Boolean (bool)
 
-**Example**
+Boolean represents one of two values: `True` or `False`. Python uses a capital T and F.
+
 ```python
 is_developer = True
 is_student = False
@@ -124,67 +229,108 @@ print(is_student)
 
 print(type(is_developer))
 ```
+
+---
+
+## What is Type Conversion?
+
+Type conversion means converting a value from one data type to another.
+
+### Implicit Type Conversion
+
+Python automatically converts one data type into another when required.
+
+### Explicit Type Conversion
+
+The programmer manually converts a value using functions such as `int()`, `float()`, and `str()`.
+
+---
+
+## Input in Python
+
+The `input()` function is used to accept data from the user.
+
+### input() Function
+
+### Taking Integer Input
+
+### Taking Float Input
+
+### Taking Multiple Inputs
+
+### Student Information System
+
+---
+
 ## Operators in Python
 
 Operators are symbols or keywords used to perform operations on variables and values.
 
-Python has seven major categories of operators:
+There are seven main categories of operators:
 
-1. Arithmetic operators
-2. Comparison operators
-3. Logical operators
-4. Assignment operators
-5. Identity operators
-6. Membership operators
-7. Bitwise operators
+1. Arithmetic Operators
+2. Comparison Operators
+3. Logical Operators
+4. Assignment Operators
+5. Identity Operators
+6. Membership Operators
+7. Bitwise Operators
 
----
-
-### 1. Arithmetic Operators
-
-Arithmetic operators perform mathematical calculations.
+## Arithmetic Operators
 
 | Operator | Name | Example | Result |
-| :--- | :--- | :--- | :--- |
-| `+` | Addition | `10 + 5` | `15` |
-| `-` | Subtraction | `10 - 5` | `5` |
-| `*` | Multiplication | `10 * 5` | `50` |
-| `/` | Division | `10 / 5` | `2.0` |
-| `//` | Floor division | `10 // 3` | `3` |
-| `%` | Modulus | `10 % 3` | `1` |
-| `**` | Exponentiation | `2 ** 3` | `8` |
+|---|---|---|---|
+| + | Addition | 10 + 5 | 15 |
+| - | Subtraction | 10 - 5 | 5 |
+| * | Multiplication | 10 * 5 | 50 |
+| / | Division | 10 / 5 | 2.0 |
+| // | Floor division | 10 // 3 | 3 |
+| % | Modulus | 10 % 3 | 1 |
+| ** | Exponentiation | 2 ** 3 | 8 |
 
----
-
-### 2. Comparison Operators
-
-Comparison operators compare two values and return `True` or `False`.
+## Comparison Operators
 
 | Operator | Name | Example | Result |
-| :--- | :--- | :--- | :--- |
-| `==` | Equal to | `10 == 5` | `False` |
-| `!=` | Not equal to | `10 != 5` | `True` |
-| `>` | Greater than | `10 > 5` | `True` |
-| `<` | Less than | `10 < 5` | `False` |
-| `>=` | Greater than or equal to | `10 >= 10` | `True` |
-| `<=` | Less than or equal to | `10 <= 5` | `False` |
+|---|---|---|---|
+| == | Equal to | 10 == 5 | False |
+| != | Not equal to | 10 != 5 | True |
+| > | Greater than | 10 > 5 | True |
+| < | Less than | 10 < 5 | False |
+| >= | Greater than or equal to | 10 >= 10 | True |
+| <= | Less than or equal to | 10 <= 5 | False |
+
+## Logical Operators
+
+| Operator | Description | Example |
+|---|---|---|
+| and | Returns True if both conditions are true | `x > 2 and x < 10` |
+| or | Returns True if at least one condition is true | `x > 2 or x > 10` |
+| not | Reverses the result | `not(x > 2)` |
+
+## Assignment Operators
+
+## Identity Operators
+
+## Membership Operators
+
+## Bitwise Operators
+
+## Operator Precedence
+
+## Employee Salary Calculator
+
+## Operator Interview Questions
+
+## Operator Practice Exercises
 
 ---
 
-### 3. Logical Operators
+## What are Conditional Statements?
 
-Logical operators combine conditional statements.
+Conditional statements are used to make decisions in a program based on whether a condition is `True` or `False`.
 
-| Operator | Description | Example (`x = 5`) | Result |
-| :--- | :--- | :--- | :--- |
-| `and` | Returns `True` if both statements are true | `x > 2 and x < 10` | `True` |
-| `or` | Returns `True` if one of the statements is true | `x > 2 or x > 10` | `True` |
-| `not` | Reverses the result, returns `False` if the result is true | `not(x > 2 and x ` | Signed right shift | Shifts right by pushing copies of the leftmost bit in | `5 >> 1` (`0010`) | `2` |
+Types of conditional statements:
 
-## Conditional Statements
-Conditional statements are used to make decisions in a Python program based on whether a condition is True or False.
-
-Python provides the following conditional statements:
 1. if
 2. if-else
 3. if-elif-else
@@ -192,23 +338,23 @@ Python provides the following conditional statements:
 5. Short-hand if
 6. Ternary operator
 
-### 1. The if Statement
-The if statement executes a block of code only when a specified condition is true.
+## if Statement
 
-**Example**
 ```python
 age = 22
 
 if age >= 18:
     print("Eligible to vote")
 ```
+
 **Output:**
+
+```text
 Eligible to vote
+```
 
-### 2. The if-else Statement
-The if-else statement executes one block when the condition is true and another block when it is false.
+## if-else Statement
 
-**Example**
 ```python
 number = int(input("Enter a number: "))
 
@@ -218,18 +364,14 @@ else:
     print("Odd number")
 ```
 
-**Output:**
-Enter a number: 15
+**Output (input: 15):**
+
+```text
 Odd number
+```
 
-### 3. The if-elif-else Statement
-When you have multiple conditions to check, use if-elif-else.
+## if-elif-else Statement
 
-elif means "else if".
-
-Python checks the conditions from top to bottom. The first true condition gets executed, and the remaining conditions are skipped.
-
-**Example**
 ```python
 marks = int(input("Enter your marks: "))
 
@@ -245,16 +387,14 @@ else:
     print("Fail")
 ```
 
-**Output**
-Enter your marks: 82
+**Output (input: 82):**
+
+```text
 Grade B
+```
 
-### 4. Nested if Statements
-A nested if statement means writing an if statement inside another if statement.
+## Nested if
 
-It is useful when one condition needs to be checked only after another condition is satisfied.
-
-**Example**
 ```python
 username = input("Enter username: ")
 password = input("Enter password: ")
@@ -268,15 +408,14 @@ else:
     print("Invalid username")
 ```
 
-**Output:**
-Enter username: sandesh
-Enter password: python123
+**Output (username: sandesh, password: python123):**
+
+```text
 Login successful
+```
 
-### 5. Short-hand if Statement
-Python allows you to write a simple if statement in one line.
+## Short-hand if
 
-**Example**
 ```python
 age = 22
 
@@ -284,12 +423,13 @@ if age >= 18: print("Adult")
 ```
 
 **Output:**
+
+```text
 Adult
+```
 
-### 6. Ternary Operator (Conditional Expression)
-A ternary operator allows you to write an if-else condition in a single line.
+## Ternary Operator
 
-**Example**
 ```python
 number = 10
 
@@ -298,43 +438,58 @@ result = "Even" if number % 2 == 0 else "Odd"
 print(result)
 ```
 
-**Output**
+**Output:**
+
+```text
 Even
+```
 
-## Loops in Python
-Loops are used to execute a block of code repeatedly until a particular condition is satisfied or a sequence is completed.
+---
 
-### 1. For Loop
-A for loop is used to iterate over a sequence such as a list, tuple, string, dictionary, or range of numbers.
+## What are Loops?
 
-**Example**
+Loops are used to execute a block of code repeatedly until a condition is satisfied or a sequence is completed.
+
+## for Loop
+
 ```python
-#print numbers from  1 to 5
+# Print numbers from 1 to 5
 for i in range(1, 6):
     print(i)
 ```
 
-**Output**
+**Output:**
+
+```text
 1
 2
 3
 4
 5
-
-### 2. While Loop
-A while loop repeatedly executes a block of code as long as its condition remains true.
-
-**Example**
-```python
-i=1
-while i<=5
-    print(i)
-i+=1
 ```
 
-**Output**
+## while Loop
+
+```python
+i = 1
+
+while i <= 5:
+    print(i)
+    i += 1
+```
+
+**Output:**
+
+```text
 1
 2
 3
 4
 5
+```
+
+## break Statement
+
+## continue Statement
+
+## pass Statement
