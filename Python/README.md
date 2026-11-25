@@ -484,6 +484,33 @@ i+=1
 
 ## Functions
 
+Python functions are reusable block of code which performs a specific task.
+
+**Syntax**
+```text
+def function_name(arguments):
+    # function body
+    return value
+```
+
+**Example**
+```python
+def oddEven(x)
+    if (x%2 == 0):
+        return("Even")
+    else:
+        return("Odd")
+
+print(oddEven(10))
+print(oddEven(19))
+```
+
+**Output**
+```text
+Even
+Odd
+```
+
 ---
 
 # Python Data Structures
