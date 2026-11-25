@@ -64,6 +64,37 @@ Python is a high-level, interpreted, general-purpose programming language known 
 
 ## Input and Output
 
+input() function is used to take the user input
+
+**Example**
+```python
+name= input("Enter your name:")
+print("hello! my name is "+name)
+```
+
+**Output:**
+
+```text
+Enter your name:Sandy
+hello! my name is Sandy
+```
+
+print() function is used for printing output
+
+**Example**
+```python
+name = "Sandy"
+age = 20
+company = "Cogno"
+salary= 20000
+
+print("My name is "+name+" and I am "+age+" years old. I work in "+company+" and my salary is "+salary)
+```
+**Output**
+```text
+My name is Sandy and I am 20 years old. I work in cogno and my salary is 20000
+```
+
 ## Variables
 
 A variable is a named reference used to store data that can be accessed and manipulated in a program.
