@@ -497,9 +497,9 @@ def function_name(arguments):
 ```python
 def oddEven(x)
     if (x%2 == 0):
-        return("Even")
+        return "Even"
     else:
-        return("Odd")
+        return "Odd"
 
 print(oddEven(10))
 print(oddEven(19))
