@@ -189,6 +189,21 @@ Logical operators combine conditional statements.
 
 ## Keywords
 
+Keywords are the special reserved words in python which defines structure and rules of the python programm.
+
+**Example**
+```python
+import keyword
+print("The list of keywords are : ")
+print(keyword.kwlist)
+```
+
+**Output**
+```text
+The list of keywords are: 
+['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+```
+
 ## Data Types
 
 A data type defines the type of value that a variable can hold.
