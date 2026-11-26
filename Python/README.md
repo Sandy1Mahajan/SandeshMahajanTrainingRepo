@@ -762,6 +762,59 @@ TypeError: 'set' object does not support item assignment
 
 ## Array
 
+Array is a collection of elements stored at contiguous memory locations, used to hold multiple values of the same data type.
+
+**Example**
+```python
+import array as arr
+a = arr.array('i', [1, 2, 3])
+
+# accessing first array
+print(a[0])
+
+# adding element to array
+a.append(5)
+print(a)
+
+b = arr.array('i', [1, 2, 3])
+
+for i in range(0, 3):
+    print(b[i], end=" ")
+```
+
+**Output**
+
+```text
+1
+array('i', [1, 2, 3, 5])
+1 2 3 
+```
+
+**Example**
+```python
+import array as arr
+a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+b = arr.array('i', a)
+
+res = b[3:8]
+print(res)
+
+res = b[5:]
+print(res)
+
+res = b[:]
+print(res)
+```
+
+**Output**
+
+```text
+array('i', [4, 5, 6, 7, 8])
+array('i', [6, 7, 8, 9, 10])
+array('i', [1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+
+```
+
 ---
 
 # Advanced Python
