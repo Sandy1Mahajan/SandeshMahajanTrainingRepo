@@ -617,6 +617,8 @@ Odd
 
 ## String
 
+Strings are sequence of characters written inside quotes. it can include letters, numbers, symbols and space
+
 ## List
 
 ## Set
