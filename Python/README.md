@@ -136,7 +136,6 @@ Python has seven major categories of operators:
 6. Membership operators
 7. Bitwise operators
 
----
 
 ### Arithmetic Operators
 
@@ -152,7 +151,7 @@ Arithmetic operators perform mathematical calculations.
 | `%` | Modulus | `10 % 3` | `1` |
 | `**` | Exponentiation | `2 ** 3` | `8` |
 
----
+
 
 ### Comparison Operators
 
@@ -167,7 +166,7 @@ Comparison operators compare two values and return `True` or `False`.
 | `>=` | Greater than or equal to | `10 >= 10` | `True` |
 | `<=` | Less than or equal to | `10 <= 5` | `False` |
 
----
+
 
 ### Logical Operators
 
@@ -179,7 +178,7 @@ Logical operators combine conditional statements.
 | `or` | Returns `True` if one of the statements is true | `x > 2 or x > 10` | `True` |
 | `not` | Reverses the result, returns `False` if the result is true | `not(x > 2 and x ` | |
 
----
+
 
 ### Assignment Operators
 
@@ -196,7 +195,7 @@ Assignment operators are used to assign values to variables and update their val
 | `%=` | Modulus and assign | `x %= 3` | `x = x % 3` |
 | `**=` | Power and assign | `x **= 2` | `x = x ** 2` |
 
----
+
 
 ### Identity Operators
 
@@ -207,7 +206,7 @@ Identity operators are used to check whether two variables refer to the same obj
 | `is` | Identity | `x is y` | Returns `True` if both variables refer to the same object. |
 | `is not` | Not Identity | `x is not y` | Returns `True` if both variables refer to different objects. |
 
----
+
 
 ### Membership Operators
 
@@ -218,7 +217,7 @@ Membership operators are used to check whether a value exists in a sequence or c
 | `in` | Membership | `10 in numbers` | Returns `True` if the value exists in the sequence. |
 | `not in` | Not Membership | `50 not in numbers` | Returns `True` if the value does not exist in the sequence. |
 
----
+
 
 ### Bitwise Operators
 
