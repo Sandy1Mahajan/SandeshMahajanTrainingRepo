@@ -1,6 +1,6 @@
 # Python
 
-Python is a high-level, interpreted, general-purpose programming language known for its simple syntax, readability, and extensive libraries.
+Python is a high-level, interpreted, general-purpose programming language known for its simple syntax, readability, and extensive libraries. 
 
 ## Python Topics
 
