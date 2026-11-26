@@ -676,6 +676,7 @@ Apple
 
 A tuple is an immutable ordered collection of elements.
 
+**Example**
 ```python
 tup = ()
 print(tup)
@@ -703,6 +704,29 @@ print(tup)
 ```
 
 ## Dictionary
+
+Dictionary is a data structure which stores value in key value pair. where keys must be unique and immutable and the value can be of any data type. whether mutable or immutable 
+
+
+**Example**
+```python
+data = { "name": "Sandy", "age": 22 }
+print(data)
+
+a = {"x": 1, "y": 2}
+print(a)
+
+b = dict(name="Sandy", age=22)
+print(b)
+```
+
+**Output**
+
+```text
+{'name': 'Sandy', 'age': 22}
+{'x': 1, 'y': 2}
+{'name': 'Sandy', 'age': 22}
+```
 
 ## Set
 
