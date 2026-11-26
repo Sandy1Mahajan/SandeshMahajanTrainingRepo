@@ -181,11 +181,49 @@ Logical operators combine conditional statements.
 
 ### Assignment Operators
 
+Assignment operators are used to assign values to variables and update their values.
+
+| Operator | Name | Example | Equivalent To |
+| :--- | :--- | :--- | :--- |
+| `=` | Assignment | `x = 10` | `x = 10` |
+| `+=` | Add and assign | `x += 5` | `x = x + 5` |
+| `-=` | Subtract and assign | `x -= 5` | `x = x - 5` |
+| `*=` | Multiply and assign | `x *= 5` | `x = x * 5` |
+| `/=` | Divide and assign | `x /= 5` | `x = x / 5` |
+| `//=` | Floor divide and assign | `x //= 3` | `x = x // 3` |
+| `%=` | Modulus and assign | `x %= 3` | `x = x % 3` |
+| `**=` | Power and assign | `x **= 2` | `x = x ** 2` |
+
 ### Identity Operators
+
+Identity operators are used to check whether two variables refer to the same object in memory.
+
+| Operator | Name | Example | Description |
+| :--- | :--- | :--- | :--- |
+| `is` | Identity | `x is y` | Returns `True` if both variables refer to the same object. |
+| `is not` | Not Identity | `x is not y` | Returns `True` if both variables refer to different objects. |
 
 ### Membership Operators
 
+Membership operators are used to check whether a value exists in a sequence or collection,
+
+| Operator | Name | Example | Description |
+| :--- | :--- | :--- | :--- |
+| `in` | Membership | `10 in numbers` | Returns `True` if the value exists in the sequence. |
+| `not in` | Not Membership | `50 not in numbers` | Returns `True` if the value does not exist in the sequence. |
+
 ### Bitwise Operators
+
+Bitwise operators are used to perform operations on individual bits of integer values.
+
+| Operator | Name | Example | Description |
+| :--- | :--- | :--- | :--- |
+| `&` | AND | `5 & 3` | Returns 1 if both corresponding bits are 1. |
+| `\|` | OR | `5 \| 3` | Returns 1 if at least one corresponding bit is 1. |
+| `^` | XOR | `5 ^ 3` | Returns 1 if corresponding bits are different. |
+| `~` | NOT | `~5` | Inverts the bits of the number. |
+| `<<` | Left Shift | `5 << 1` | Shifts bits to the left by the specified number of positions. |
+| `>>` | Right Shift | `5 >> 1` | Shifts bits to the right by the specified number of positions. |
 
 ## Keywords
 
