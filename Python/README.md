@@ -646,7 +646,31 @@ I am learning python
       From my own
 ```
 
-## List
+## List,
+List is a data structure in python which stores order collection of items. which is dynamic, resizable and can store multiple data types
+
+```python
+a = [1,2,3]
+b = ["Apple","Banana","Papaya"]
+c = [1,2,'Apple',3,'Banana','Papaya']
+d = list((1,2,'Apple',3,'Banana','Papaya'))
+
+print(a)
+print(b)
+print(c)
+print(d)
+print(c[2])
+
+```
+**Output**
+
+```text
+[1, 2, 3]
+['Apple', 'Banana', 'Papaya']
+[1, 2, 'Apple', 3, 'Banana', 'Papaya']
+[1, 2, 'Apple', 3, 'Banana', 'Papaya']
+Apple
+```
 
 ## Set
 
