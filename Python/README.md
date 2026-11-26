@@ -619,6 +619,33 @@ Odd
 
 Strings are sequence of characters written inside quotes. it can include letters, numbers, symbols and space
 
+**Example**
+
+```python
+a = 'Cogno'
+b = "Cognologix"
+c = """I am learning python
+      From my own"""
+
+print(a)
+print(b)
+print(a[2])
+print(a[0:3])
+print(c)
+
+```
+
+**Output**
+
+```text
+Cogno
+Cognologix
+g
+Cog
+I am learning python
+      From my own
+```
+
 ## List
 
 ## Set
