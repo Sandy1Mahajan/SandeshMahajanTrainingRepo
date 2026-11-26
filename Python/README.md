@@ -730,6 +730,36 @@ print(b)
 
 ## Set
 
+Set is a built in python data type with the unordered collection which stores unique elements and it cannot access using index
+
+**Example**
+```python
+s = {10, 50, 20}
+print(s)
+print(type(s))
+
+s = set(["a", "b", "c"])
+print(s)
+
+# a set cannot have duplicate values
+s = {"Sandy", "And", "Sandy"}
+print(s)
+
+# values of a set cannot be changed
+s[1] = "Hello"
+print(s)
+```
+
+**Output**
+
+```text
+{10, 50, 20}
+<class 'set'>
+{'b', 'a', 'c'}
+{'Sandy', 'And'}
+TypeError: 'set' object does not support item assignment
+```
+
 ## Array
 
 ---
