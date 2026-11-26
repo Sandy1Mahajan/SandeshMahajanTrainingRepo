@@ -27,9 +27,9 @@ Python is a high-level, interpreted, general-purpose programming language known 
 
 - [String](#string)
 - [List](#list)
-- [Set](#set)
 - [Tuple](#tuple)
 - [Dictionary](#dictionary)
+- [Set](#set)
 - [Array](#array)
 
 </details>
@@ -672,11 +672,39 @@ print(c[2])
 Apple
 ```
 
-## Set
-
 ## Tuple
 
+A tuple is an immutable ordered collection of elements.
+
+```python
+tup = ()
+print(tup)
+
+# Using String
+tup = ('Java', 'Python')
+print(tup)
+
+# Using List
+li = [1, 2, 4, 5, 6]
+print(tuple(li))
+
+# Using Built-in Function
+tup = tuple('Sandy')
+print(tup)
+```
+
+**Output**
+
+```text
+()
+('Java', 'Python')
+(1, 2, 4, 5, 6)
+('S', 'a', 'n', 'd', 'y')
+```
+
 ## Dictionary
+
+## Set
 
 ## Array
 
